@@ -37,8 +37,8 @@ To execute the pipeline, run:
 | Argument  | Usage                            | Description                                                          |
 |-----------|----------------------------------|----------------------------------------------------------------------|
 | -profile  | \slurm\>                    | Configuration profile to use.                                       |
-| --input  | \</project/\*\_{1,2}\*.fastq.gz\> | Directory pattern for fastq files.                                   |
-| --reference_genome    | \<hg19\>              | Path to the reference genome to which the samples will be mapped |
+| --reads  | \<*_{1,2}\*.fastq.gz\> | Directory pattern for fastq files.                                   |
+| --reference    | \<hg19\>              | Path to the reference genome to which the samples will be mapped |
 | -r    | \<revision\>  | Pipeline revision     |
 | --singleEnd  |             | Specifies that the input files are not paired reads (default is paired-end). |
 
