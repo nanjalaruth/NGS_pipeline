@@ -14,7 +14,7 @@ The pipeline does Next Generation sequence analysis.
 - Variant calling using `octopus`
 - Genomic coverage computation using `bedtools`
 
-The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. 
+The pipeline is built using [Nextflow](https://www.nextflow.io) DSL2, a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. 
 
 ## Installation 
 [Nextflow](https://www.nextflow.io/docs/latest/getstarted.html)
