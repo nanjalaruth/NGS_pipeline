@@ -24,15 +24,12 @@ The pipeline does not require installation as `NextFlow` will automatically fetc
 
 ### Test data
 To execute the pipeline, run:
-
    
     nextflow run nanjalaruth/NGS_pipeline -profile slurm -resume --input "*_{1,2}.fastq.gz" --reference "path to the reference genome"
     
 ## To run the updated version of this pipeline, run:
 
-    ```
     nextflow pull nanjalaruth/NGS_pipeline
-    ```
     
 ## Arguments
 
