@@ -1,6 +1,4 @@
-# NGS_pipeline
-
-# HLA-typing
+# NGS_pipeline on a Plasmodium dataset
 
 [![Nextflow](https://img.shields.io/badge/nextflow-%E2%89%A520.04.0-brightgreen.svg)](https://www.nextflow.io/)
 
@@ -19,7 +17,7 @@ The pipeline does Next Generation sequence analysis.
 The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. 
 
 ## Installation 
-1. [Nextflow](https://www.nextflow.io/docs/latest/getstarted.html)
+[Nextflow](https://www.nextflow.io/docs/latest/getstarted.html)
 
 ## Running the pipeline
 The pipeline does not require installation as `NextFlow` will automatically fetch it from `GitHub`.
