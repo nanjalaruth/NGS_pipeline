@@ -1,1 +1,1 @@
-# NGS_pipeline-Nextflow-
+# NGS_pipeline
