@@ -25,7 +25,7 @@ The pipeline does not require installation as `NextFlow` will automatically fetc
 ### Test data
 To execute the pipeline, run:
    
-    nextflow run nanjalaruth/NGS_pipeline -profile slurm -resume --input "*_{1,2}.fastq.gz" --reference "path to the reference genome"
+    nextflow run nanjalaruth/NGS_pipeline -profile slurm -resume --reads "*_{1,2}.fastq.gz" --reference "path to the reference genome"
     
 ## To run the updated version of this pipeline, run:
 
@@ -43,4 +43,4 @@ To execute the pipeline, run:
 | --singleEnd  |             | Specifies that the input files are not paired reads (default is paired-end). |
 
 ## Support
-I track open tasks using github's [issues](https://github.com/nanjalaruth/HLA-typing/issues)
+I track open tasks using github's [issues](https://github.com/nanjalaruth/NGS_pipeline/issues)
